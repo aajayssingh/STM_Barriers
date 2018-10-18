@@ -1,5 +1,7 @@
 # STM_Barriers
 The repo contains software transactional memory based barriers for synchronizing threads.
+
+
 compile >
 g++ -std=c++14 -g main.cpp txBarrier.cpp -o test -ltbb -lpthread
 
